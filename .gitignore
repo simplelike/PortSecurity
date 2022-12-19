@@ -73,4 +73,13 @@ crashlytics-build.properties
 
 #Here end default .gitignore
 
-/[Aa]ssets/polyperfect
+/[Aa]ssets/polyperfect/Low Poly Ultimate Pack/01 - All Models.unity
+/[Aa]ssets/polyperfect/Low Poly Ultimate Pack/02 - Worlds.unity
+/[Aa]ssets/polyperfect/Low Poly Ultimate Pack/03 - Islands.unity
+/[Aa]ssets/polyperfect/Low Poly Ultimate Pack/04 - City.unity
+/[Aa]ssets/polyperfect/Low Poly Ultimate Pack/05 - Suburban.unity
+/[Aa]ssets/polyperfect/Low Poly Ultimate Pack/08 - Japan.unity
+/[Aa]ssets/polyperfect/Low Poly Ultimate Pack/09 - Dungeon.unity
+/[Aa]ssets/polyperfect/Low Poly Ultimate Pack/10 - Scifi.unity
+/[Aa]ssets/polyperfect/Low Poly Ultimate Pack/11 - Farm.unity
+/[Aa]ssets/polyperfect/Low Poly Ultimate Pack/T
