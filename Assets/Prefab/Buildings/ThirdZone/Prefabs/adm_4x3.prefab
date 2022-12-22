@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7316638379403483821}
   - component: {fileID: 5919471820324115720}
   - component: {fileID: 8485563501975855554}
+  - component: {fileID: -6649271304609045134}
   m_Layer: 0
   m_Name: adm_4x3
   m_TagString: Untagged
@@ -85,3 +86,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-6649271304609045134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981006892759891991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f67e9e55c954cb48950278426f1e08b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  main_title: "\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043D\u043E\u0435
+    \u0437\u0434\u0430\u043D\u0438\u0435 \\n (\u0437\u0434\u0430\u043D\u0438\u0435
+    \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u043F\u043E\u0440\u0442\u043E\u043C)"
+  main_info: "\u0412 \u0437\u0434\u0430\u043D\u0438\u0438 \u0440\u0430\u0441\u043F\u043E\u043B\u0430\u0433\u0430\u044E\u0442\u0441\u044F,
+    \u0432 \u0447\u0430\u0441\u0442\u043D\u043E\u0441\u0442\u0438 \u0440\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E
+    \u043E\u0431\u044A\u0435\u043A\u0442\u043E\u043C (\u043F\u043E\u0440\u0442\u043E\u043C),
+    \u0431\u0443\u0445\u0433\u0430\u043B\u0442\u0435\u0440\u0438\u044F, \u043E\u0442\u0434\u0435\u043B
+    \u043F\u043E \u0440\u0430\u0431\u043E\u0442\u0435 \u0441 \u043A\u043B\u0438\u0435\u043D\u0442\u0430\u043C\u0438.
+    \u0412 \u0437\u0434\u0430\u043D\u0438\u0438 \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u044B
+    \u0410\u0422\u0421 \u0438 \u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0430\u044F."
+  isCritic: 1

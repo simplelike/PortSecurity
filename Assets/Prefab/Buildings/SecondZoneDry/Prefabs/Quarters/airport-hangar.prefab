@@ -1266,6 +1266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCriticZone: 0
+  isSelectable: 1
 --- !u!1 &9068318621071916319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,6 +1279,7 @@ GameObject:
   - component: {fileID: 3142227585102007038}
   - component: {fileID: 8852089423889271290}
   - component: {fileID: 5690501158351158332}
+  - component: {fileID: 4206665034609274420}
   m_Layer: 0
   m_Name: airport-hangar (4)
   m_TagString: Untagged
@@ -1367,6 +1369,27 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 52ac9b43f7abdbd428c6b1415b94ae3b, type: 3}
+--- !u!114 &4206665034609274420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9068318621071916319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f67e9e55c954cb48950278426f1e08b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  main_title: "\u0421\u043A\u043B\u0430\u0434 \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044C\u043D\u043E-\u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
+    \u0441\u043D\u0430\u0431\u0436\u0435\u043D\u0438\u044F"
+  main_info: "\u041F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D
+    \u0434\u043B\u044F \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F \u0441\u0440\u0435\u0434\u0441\u0442\u0432
+    \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044C\u043D\u043E-\u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
+    \u0441\u043D\u0430\u0431\u0436\u0435\u043D\u0438\u044F \u043F\u043E\u0440\u0442\u0430"
+  cargoType: 4
+  cargoDangerType: 3
+  isCritic: 0
 --- !u!1001 &26911390114807575
 PrefabInstance:
   m_ObjectHideFlags: 0

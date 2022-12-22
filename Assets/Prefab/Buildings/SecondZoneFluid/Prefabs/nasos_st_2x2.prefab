@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8768922740843028263}
   - component: {fileID: 5629116150949613698}
   - component: {fileID: 7636508585766478920}
+  - component: {fileID: 6774299178862691537}
   m_Layer: 0
   m_Name: nasos_st_2x2
   m_TagString: Untagged
@@ -88,3 +89,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6774299178862691537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8285119635514934685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f67e9e55c954cb48950278426f1e08b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  main_title: "\u041D\u0430\u0441\u043E\u0441\u043D\u0430\u044F \u0441\u0442\u0430\u043D\u0446\u0438\u044F"
+  main_info: "\u041F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0430
+    \u0434\u043B\u044F \u043F\u0435\u0440\u0435\u043A\u0430\u0447\u043A\u0438 \u043D\u0430\u043B\u0438\u0432\u043D\u044B\u0445
+    (\u0436\u0438\u0434\u043A\u0438\u0445) \u0433\u0440\u0443\u0437\u043E\u0432 \u0438
+    \u0441\u0436\u0438\u0436\u0435\u043D\u043D\u044B\u0445 \u0433\u0430\u0437\u043E\u0432
+    \u0441 \u0441\u0443\u0434\u043D\u0430 \u0432 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435
+    \u0438 (\u0438\u043B\u0438) \u043E\u0431\u0440\u0430\u0442\u043D\u043E"
+  isCritic: 1

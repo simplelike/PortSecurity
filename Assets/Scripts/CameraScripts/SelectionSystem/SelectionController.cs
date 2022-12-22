@@ -94,6 +94,14 @@ public class SelectionController : MonoBehaviour
     {
         menu.setHeaderInfo(info.main_title);
         menu.setMainText(info.main_info);
+        menu.setCargoInfoVisibilityToState(false);
+
+        if (info.cargoType != CargoType.None)
+        {
+            string textToSet = "Группа груза: " + BuildingInfo.cargoTypeTitles[info.cargoType] + ". Класс опасности: " + BuildingInfo.cargoTypeDangers[info.cargoDangerType] + ".";
+            menu.setAdditionalData(AdditionalDataType.Cargo, textToSet);
+            menu.setCargoInfoVisibilityToState(true);
+        }
     }
 
     public HashSet<GameObject> getSelectedElements()

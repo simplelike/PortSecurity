@@ -924,7 +924,7 @@ public class Generator : MonoBehaviour
             GameObject g_o;
             if (x == kpp_x_coord)
             {
-                g_o = Instantiate(kpp_prefab, new Vector3(x * step50, border_prefab.transform.position.y, y * step50), Quaternion.identity);
+                g_o = Instantiate(kpp_prefab, new Vector3(x * step50, border_prefab.transform.position.y, y * step50), Quaternion.Euler(new Vector3(0, 90, 0)));
                 border_zone.Add(new Coordinates(x, y));
             }
             else
