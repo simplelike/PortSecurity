@@ -1955,6 +1955,8 @@ MonoBehaviour:
   third_zone_presets:
   - prefab: {fileID: 3846267748587905881, guid: 80c2d4adf6ff8814080c75d9ba7f2832, type: 3}
     size: 0
+  - prefab: {fileID: 4933468459296303621, guid: 2a289b5314f570b4bb7f82f719fd6ab4, type: 3}
+    size: 8
   outside_zone_presets:
   - prefab: {fileID: 3274806562441004741, guid: 4b629fa18d381fe468480efe923b9f7c, type: 3}
     size: 0
@@ -1971,6 +1973,10 @@ MonoBehaviour:
   - prefab: {fileID: 8294870577348687042, guid: 2e93d03d1be228042a356273f2132daa, type: 3}
     size: 3
   - prefab: {fileID: 4517045925294291797, guid: 4fddb7f958e095845b646adf9a3a5012, type: 3}
+    size: 9
+  - prefab: {fileID: 4517045925294291797, guid: 0c2b6a55ceb8cb24db14e15ce1772005, type: 3}
+    size: 9
+  - prefab: {fileID: 1132300229198468321, guid: c6a60da710820ee4684e82798277dc45, type: 3}
     size: 9
   mandatory_presets_outside_zones: []
   crane_prefab: {fileID: 923940613915194837, guid: 47cf86ec8d850d34fb18d58bf327cec1, type: 3}
